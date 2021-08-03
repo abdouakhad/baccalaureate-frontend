@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: gray;
+}
+/* Styling the top bar and the Navbar */
+.w-iconWidth{
+    border-radius: 5px;
+}
+.text-green{
+    font-weight: bold;
+}
+.text-green:hover{
+    color: #6EE7B7;
+}
+.link:hover{
+    color: #D1D5DB;
+}
+
+/* Styling the showcase area */
 .showcase{
     background-image: url('../images/1-bg.png');
     background-repeat: no-repeat;
@@ -5,3 +27,22 @@
     height: 450px;
 }
   
+@media (max-width: 915px){
+    .container{
+        width: 95%;
+    }
+}
+@media (max-width: 915px){
+    .container{
+        width: 95%;
+    }
+}
+@media (max-width: 804px){
+    .container{
+        font-size:15px;
+    }
+}
+
+
+
+/* Make the grid in the middle shrink  */
