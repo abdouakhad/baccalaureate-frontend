@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baccalaureate | A propos</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class='register h-screen'>
+    <!-- Top-bar -->
+    <header class='bg-my-gray '>
+        <div class="container md:w-10/12 m-auto">
+            <div class="top-bar grid md:grid-cols-3 md:gap-4  items-center justify-center text-center h-20 ">
+                <div class="md:justify-self-start phone flex-none flex justify-self-center ">
+                    <img src="../../svg/2-phone.svg" class='w-iconWidth mr-2' alt="">
+                    <p>+221-77-519-89-33</p>
+                </div>
+                <div class="phone justify-self-center flex items-end">
+                    <img src="../../svg/1-envelope-solid.svg" class='w-iconWidth mr-2' alt="">
+                    <p><a href="mailto:akhad0015@gmail.com">akhad0015@gmail.com</a></p>
+                </div>
+                <ul class="md:justify-self-end flex flex-none justify-self-center">
+                    <li class=" "><a href="#"><img src="../../svg/3-linkedin.svg" class='w-iconWidth mr-2 block'
+                                alt=""></a>
+                    </li>
+                    <li><a href="#"><img src="../../svg/4-github.svg" alt="" class='w-iconWidth mr-2'></a></li>
+                    <li><a href="#"><img src="../../svg/5-instagram.svg" alt="" class='w-iconWidth'></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- Nav-bar -->
+    <nav class='bg-my-blue'>
+        <div class="container md:w-10/12 m-auto ">
+            <div class="h-20 nav grid md:grid-cols-4 md:gap-4 items-center grid-cols-2">
+                <div class="logo flex-none ">
+                    <img src="../../svg/6-graduation-cap.svg" class='w-iconWidth ml-2' alt="">
+                    <a href="#" class="text-2xl">BAC</a>
+                </div>
+                <ul class="hidden md:flex  md:col-span-2 justify-self-center items-center text-center ">
+                    <li class="mr-5 text-my-green border-b-2">
+                        <a href="index.html" class=" block">Accueil
+                        </a>
+                    </li>
+                    <li class="mr-5">
+                        <a href="about.html" class='link block'> A propos </a>
+                    </li>
+                    <li>
+                        <a href="feature.html" class="link block"> Particularite</a>
+                    </li>
+                </ul>
+                <ul class="hidden md:flex justify-self-end  items-center">
+                    <li class="mr-2"><a href="login.html" class='block'> se connecter </a></li>
+                    <li class="bg-my-gray px-2 rounded"><a href="register.html" class='block'>s'inscrire</a></li>
+                </ul>
+                <div class="md:hidden  justify-self-end">
+                    <button class="outline-none mobile-menu-button">
+                        <svg class=" w-6 h-6 text-my-gray-500 hover:text-my-green-500 " x-show="!showMenu" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="hidden mobile-menu text-center">
+        <ul class="bg-my-gray">
+            <li class="link border-b-2 border-my-blue "><a href="index.html"
+                    class="block text-sm px-2 py-4 text-my-green font-semibold">Home</a>
+            </li>
+            <li class="link border-b-2 border-my-blue"><a href="about.html"
+                    class="block text-sm px-2 py-4 hover:bg-my-green-500 transition duration-300">About</a>
+            </li>
+            <li class="link border-b-2 border-my-blue"><a href="particularity.html"
+                    class="block text-sm px-2 py-4 hover:bg-my-green-500 transition duration-300">Particularite</a>
+            </li>
+            <li class="link border-b-2 border-my-blue"><a href="login.html"
+                    class="block text-sm px-2 py-4 hover:bg-my-green-500 transition duration-300">Se Connecter</a>
+            </li>
+            <li class="link border-b-2 border-my-blue"><a href="register.html"
+                    class="block text-sm px-2 py-4 hover:bg-my-green-500 transition duration-300">S'inscrire</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="bg-gray-100 py-10 ">
+        <main class="p-3  bg-white main sm:max-w-md m-auto md:w-11/12 m-auto rounded border">
+            <div class=" flex justify-center items-center p-1 bg-my-blue">
+                <div class="logo flex-none ">
+                    <img src="../../svg/6-graduation-cap.svg" class='w-iconWidth ml-2' alt="">
+                    <a href="#" class="text-2xl">BAC</a>
+                </div>
+            </div>
+            <div class="best-result ">
+                <div class="title-best  my-3 bg-my-green p-3 text-center text-lg">
+                    <p class="font-black text-2xl">
+                        Inscription Gratuite
+                    </p>
+                    <p class="text-thin">
+                        Enter your credential to create account
+                    </p>
+                </div>
+            </div>
+            <div class="inputs">
+                <div class="my-4">
+                    <label class="block text-my-gray text-sm font-bold mb-2" for="name"></label>
+                    <input
+                        class=" appearance-none border rounded w-full py-2 px-3 text-my-blue leading-tight focus:outline-none focus:ring-2 focus:ring-my-blue focus:border-transparent"
+                        placeholder='Prenom et nom' type="text">
+                </div>
+                <div class="my-4">
+                    <label class="block text-my-gray text-sm font-bold mb-2" for="username"></label>
+                    <input
+                        class=" appearance-none border rounded w-full py-2 px-3 text-my-blue leading-tight focus:outline-none focus:ring-2 focus:ring-my-blue focus:border-transparent"
+                        placeholder="nom d'utilisateur" type="text" name="username" value=''>
+                </div>
+                <div class="my-4">
+                    <label class="block text-my-gray text-sm font-bold mb-2" for="email"></label>
+                    <input
+                        class="appearance-none border rounded w-full py-2 px-3 text-my-blue leading-tight focus:outline-none focus:ring-2 focus:ring-my-blue focus:border-transparent"
+                        placeholder='addresse email' type="email" name="email" value=''>
+                </div>
+                <div class="my-4">
+                    <label class="block text-my-gray text-sm font-bold mb-2" for="password1"></label>
+                    <input
+                        class="appearance-none border rounded w-full py-2 px-3 text-my-blue leading-tight focus:outline-none focus:ring-2 focus:ring-my-blue focus:border-transparent"
+                        placeholder='mot de passe' type="password" name="password" value=''>
+                </div>
+                <div class="my-4">
+                    <label class="block text-my-gray text-sm font-bold mb-2" for="password2"></label>
+                    <input
+                        class="appearance-none border rounded w-full py-2 px-3 text-my-blue leading-tight focus:outline-none focus:ring-2 focus:ring-my-blue focus:border-transparent"
+                        placeholder='confirmer mot de passe' type="password" name="password" value=''>
+                </div>
+                <button
+                    class="bg-my-green w-full hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                    type="button">
+                    Sign In
+                </button>
+            </div>
+        </main>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="bg-my-blue text-center h-20 flex justify-center items-center">
+        <p class="text-base">copyright &copy; 2021</p>
+    </footer>
+</body>
+<script>
+    const btn = document.querySelector("button.mobile-menu-button");
+    const menu = document.querySelector(".mobile-menu");
+
+    btn.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+    });
+</script>
+
+</html>
