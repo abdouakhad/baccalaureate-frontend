@@ -133,3 +133,12 @@ li .w-iconWidth:hover{
         opacity: 0;
     }
 }
+
+/* Styling the dashboard page */
+
+.showcase-4{
+    background-image: url('../images/13-dash-bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
